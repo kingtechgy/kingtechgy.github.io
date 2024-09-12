@@ -44312,15 +44312,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-icon-2 {
-  color: rgb(85, 172, 238) !important;
-}
-
-.u-footer .u-icon-3 {
   color: rgb(197, 54, 164) !important;
 }
 
+.u-footer .u-icon-3 {
+  height: 100%;
+  color: rgb(0, 230, 118) !important;
+}
+
 .u-footer .u-icon-4 {
-  color: rgb(0, 122, 185) !important;
+  height: 100%;
+  color: rgb(219, 83, 75) !important;
 }
 
 .u-footer .u-text-1 {
