@@ -13,12 +13,40 @@
 
 .u-section-1 .u-btn-1 {
   font-weight: 700;
+  font-size: 1.5rem;
   margin: 56px auto 36px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    font-weight: 400;
+  }
+
   .u-section-1 .u-text-2 {
     margin-left: 0;
     margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1710px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-weight: 700;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 33px;
+    margin-right: 0;
+    margin-bottom: 32px;
+    padding: 10px 11px 10px 10px;
   }
 }
